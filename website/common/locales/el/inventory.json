@@ -1,0 +1,8 @@
+{
+    "noItemsAvailableForType": "Δεν έχεις <%= type %>",
+    "foodItemType": "Ζωοτροφή",
+    "eggsItemType": "Αυγά",
+    "hatchingPotionsItemType": "Φίλτρα εκκόλαψης",
+    "specialItemType": "Ξεχωριστά αντικείμενα",
+    "lockedItem": "Κλειδωμένα αντικείμενα"
+}

@@ -1,0 +1,8 @@
+{
+  "noItemsAvailableForType": "Hiç <%= type %> tip eşyan yok.",
+  "foodItemType": "Yiyecek",
+  "eggsItemType": "Yumurtalar",
+  "hatchingPotionsItemType": "Kuluçka İksirleri",
+  "specialItemType": "Özel eşyalar",
+  "lockedItem": "Kilitli Eşya"
+}

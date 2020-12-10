@@ -1,0 +1,8 @@
+{
+    "noItemsAvailableForType": "Je hebt geen <%= type %>.",
+    "foodItemType": "Dierenvoeding",
+    "eggsItemType": "Eieren",
+    "hatchingPotionsItemType": "Uitbroeddrank",
+    "specialItemType": "Speciale artikelen",
+    "lockedItem": "Vergrendeld artikel"
+}

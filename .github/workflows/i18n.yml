@@ -12,13 +12,14 @@ jobs:
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
     - uses: technote-space/get-diff-action@v4
       with:
         PATTERNS: |
           website/common/locales/**/**.json
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+      if: env.filtered_diff
     - run: node ./.github/i18n.js
-      if: env.COUNT
+      if: env.filtered_diff

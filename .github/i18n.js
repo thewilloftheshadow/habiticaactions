@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // list all files in the directory
-fs.readdir(__dirname + "/website/common/locales", (err, files) => {
+fs.readdir(__dirname + "../website/common/locales", (err, files) => {
     if (err) {
         throw err;
     }

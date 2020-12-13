@@ -18,7 +18,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - uses: technote-space/get-diff-action@v4
       with:
-        FILES: |
+        PATTERNS: |
           website/common/locales/**/**.json
     - run: node ./.github/i18n.js
       if: env.MATCHED_FILES

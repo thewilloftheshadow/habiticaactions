@@ -20,6 +20,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-      if: env.filtered_diff
+      if: env.GIT_DIFF_FILTERED
     - run: node ./.github/i18n.js
-      if: env.filtered_diff
+      if: env.GIT_DIFF_FILTERED

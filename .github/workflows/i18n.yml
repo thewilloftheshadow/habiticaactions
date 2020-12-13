@@ -20,5 +20,5 @@ jobs:
       with:
         PATTERNS: |
             +website/locales/*/*.json
-      if: env.MATCHED_FILES
     - run: node ./.github/i18n.js
+      if: env.MATCHED_FILES
